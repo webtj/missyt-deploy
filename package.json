@@ -2,9 +2,8 @@
   "name": "missyt-deploy",
   "version": "0.0.1",
   "description": "本地项目编译并自动打包上传至服务器,备份解压替换服务器代码",
-  "main": "index.js",
   "bin": {
-    "missyt-deploy": "./bin/deploy"
+    "mdeploy": "bin/deploy.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,6 +27,9 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^9.4.1",
-    "inquirer": "^9.1.4"
+    "figlet": "^1.5.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^8.2.5",
+    "update-notifier": "^5.1.0"
   }
 }
