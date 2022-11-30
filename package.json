@@ -1,0 +1,33 @@
+{
+  "name": "missyt-deploy",
+  "version": "0.0.1",
+  "description": "本地项目编译并自动打包上传至服务器,备份解压替换服务器代码",
+  "main": "index.js",
+  "bin": {
+    "missyt-deploy": "./bin/deploy"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webtj/missyt-deploy.git"
+  },
+  "keywords": [
+    "cli",
+    "missyt",
+    "deploy",
+    "missyt-deploy"
+  ],
+  "author": "taojian<taojian@petalmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webtj/missyt-deploy/issues"
+  },
+  "homepage": "https://github.com/webtj/missyt-deploy#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "inquirer": "^9.1.4"
+  }
+}
