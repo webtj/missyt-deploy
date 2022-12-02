@@ -26,6 +26,7 @@
   "homepage": "https://github.com/webtj/missyt-deploy#readme",
   "dependencies": {
     "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
     "commander": "^9.4.1",
     "figlet": "^1.5.2",
     "fs-extra": "^11.1.0",
