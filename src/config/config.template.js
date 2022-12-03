@@ -2,11 +2,11 @@ module.exports = {
   projectName: "mdeploy",
   envList: [
     {
-      name: "dev", //环境名称
-      title: "开发环境", //环境描述
-      script: "npm run build:dev", //构建脚本
-      remotePath: "/data/www/dev", //远程服务器部署路径
-      localPath: "./dist", //本地构建路径
+      value: "dev", //环境名称
+      name: "开发环境(dev)", //环境描述
+      script: "npm run build:dev", //打包脚本
+      remotePath: "/data/www/dev", //远程服务器部署目录
+      localPath: "./dist", //本地构建目录
       host: "", //远程服务器地址
       port: 22, //远程服务器端口
       username: "", //远程服务器用户名
