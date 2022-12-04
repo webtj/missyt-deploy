@@ -1,7 +1,7 @@
 {
   "name": "missyt-deploy",
-  "version": "0.0.1",
-  "description": "本地项目编译并自动打包上传至服务器,备份解压替换服务器代码",
+  "version": "0.0.2",
+  "description": "Automatic compilation and packaging, upload, remote deployment and rollback of front-end projects",
   "bin": {
     "mdeploy": "bin/deploy.js"
   },
@@ -16,7 +16,9 @@
     "cli",
     "missyt",
     "deploy",
-    "missyt-deploy"
+    "missyt-deploy",
+    "missyt deploy",
+    "deploy tool"
   ],
   "author": "taojian<taojian@petalmail.com>",
   "license": "MIT",
@@ -24,6 +26,13 @@
     "url": "https://github.com/webtj/missyt-deploy/issues"
   },
   "homepage": "https://github.com/webtj/missyt-deploy#readme",
+  "files": [
+    "bin",
+    "src",
+    "package.json",
+    "index.js",
+    "LICENSE"
+  ],
   "dependencies": {
     "chalk": "^4.1.2",
     "child_process": "^1.0.2",
