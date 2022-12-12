@@ -1,6 +1,6 @@
 {
   "name": "missyt-deploy",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Automatic compilation and packaging, upload, remote deployment and rollback of front-end projects",
   "bin": {
     "mdeploy": "bin/deploy.js"
